@@ -115,7 +115,7 @@ fi
 %{_bindir}/carbon-relay.py
 %{_bindir}/validate-storage-schemas.py
 %if 0%{?rhel} >= 6
-%{python_sitelib}/%{name}-%{version}-py%{pyver}.egg-info
+%{python_sitelib}/%{name}-%{version}-py%{python_version}.egg-info
 %endif
 %{python_sitelib}/%{name}/*.py
 %{python_sitelib}/%{name}/*.pyc
